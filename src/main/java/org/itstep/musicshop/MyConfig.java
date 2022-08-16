@@ -1,4 +1,4 @@
-package org.itstep.springshop;
+package org.itstep.musicshop;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -67,7 +67,7 @@
         for (let i = 0; i < response.length; i++) {
             //console.log(response[i].name);
             let html = $(""+ htmlTemplate);//copy content, not reference
-            $("#img",html).attr("src", 'data:image/png;base64,' + response[i].image);
+            //$("#img",html).attr("src", 'data:image/png;base64,' + response[i].image);
             $("#name",html).html(response[i].name);
             let price = response[i].price / 100;
             $("#price",html).html('$' + price.toFixed(2).toLocaleString('en-US'));
